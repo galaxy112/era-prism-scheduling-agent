@@ -1,0 +1,44 @@
+{
+  "resources": ["MIXER", "INCUBATOR", "READER"],
+  "downtimes": [
+    {"resource": "INCUBATOR", "start": 8, "end": 10}
+  ],
+  "batches": [
+    {
+      "batch_id": "A",
+      "deadline": 18,
+      "steps": [
+        {"resource": "MIXER", "duration": 4},
+        {"resource": "INCUBATOR", "duration": 6},
+        {"resource": "READER", "duration": 3}
+      ]
+    },
+    {
+      "batch_id": "B",
+      "deadline": 17,
+      "steps": [
+        {"resource": "INCUBATOR", "duration": 5},
+        {"resource": "MIXER", "duration": 3},
+        {"resource": "READER", "duration": 4}
+      ]
+    },
+    {
+      "batch_id": "C",
+      "deadline": 20,
+      "steps": [
+        {"resource": "MIXER", "duration": 5},
+        {"resource": "READER", "duration": 3},
+        {"resource": "INCUBATOR", "duration": 4}
+      ]
+    },
+    {
+      "batch_id": "D",
+      "deadline": 19,
+      "steps": [
+        {"resource": "INCUBATOR", "duration": 4},
+        {"resource": "READER", "duration": 5},
+        {"resource": "MIXER", "duration": 2}
+      ]
+    }
+  ]
+}

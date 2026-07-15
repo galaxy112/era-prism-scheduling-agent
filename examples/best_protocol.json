@@ -1,0 +1,110 @@
+[
+  {
+    "batch_id": "B",
+    "step_index": 0,
+    "resource": "INCUBATOR",
+    "duration": 5,
+    "start": 0,
+    "end": 5,
+    "deadline": 17
+  },
+  {
+    "batch_id": "B",
+    "step_index": 1,
+    "resource": "MIXER",
+    "duration": 3,
+    "start": 5,
+    "end": 8,
+    "deadline": 17
+  },
+  {
+    "batch_id": "A",
+    "step_index": 0,
+    "resource": "MIXER",
+    "duration": 4,
+    "start": 8,
+    "end": 12,
+    "deadline": 18
+  },
+  {
+    "batch_id": "B",
+    "step_index": 2,
+    "resource": "READER",
+    "duration": 4,
+    "start": 8,
+    "end": 12,
+    "deadline": 17
+  },
+  {
+    "batch_id": "A",
+    "step_index": 1,
+    "resource": "INCUBATOR",
+    "duration": 6,
+    "start": 12,
+    "end": 18,
+    "deadline": 18
+  },
+  {
+    "batch_id": "D",
+    "step_index": 0,
+    "resource": "INCUBATOR",
+    "duration": 4,
+    "start": 18,
+    "end": 22,
+    "deadline": 19
+  },
+  {
+    "batch_id": "A",
+    "step_index": 2,
+    "resource": "READER",
+    "duration": 3,
+    "start": 18,
+    "end": 21,
+    "deadline": 18
+  },
+  {
+    "batch_id": "D",
+    "step_index": 1,
+    "resource": "READER",
+    "duration": 5,
+    "start": 22,
+    "end": 27,
+    "deadline": 19
+  },
+  {
+    "batch_id": "D",
+    "step_index": 2,
+    "resource": "MIXER",
+    "duration": 2,
+    "start": 27,
+    "end": 29,
+    "deadline": 19
+  },
+  {
+    "batch_id": "C",
+    "step_index": 0,
+    "resource": "MIXER",
+    "duration": 5,
+    "start": 29,
+    "end": 34,
+    "deadline": 20
+  },
+  {
+    "batch_id": "C",
+    "step_index": 1,
+    "resource": "READER",
+    "duration": 3,
+    "start": 34,
+    "end": 37,
+    "deadline": 20
+  },
+  {
+    "batch_id": "C",
+    "step_index": 2,
+    "resource": "INCUBATOR",
+    "duration": 4,
+    "start": 37,
+    "end": 41,
+    "deadline": 20
+  }
+]

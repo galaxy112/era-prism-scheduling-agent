@@ -1,0 +1,9 @@
+[project]
+name = "era-prism-scheduling-agent"
+version = "0.1.0"
+description = "A minimal ERA + PRISM inspired lab scheduling demo."
+requires-python = ">=3.10"
+dependencies = []
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
