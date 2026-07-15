@@ -24,12 +24,6 @@ python -m unittest discover -s tests
 reports/report.html
 ```
 
-面试准备问题文档：
-
-```text
-reports/interview_questions.docx
-```
-
 ## 问题设置
 
 虚构实验室有三个单容量资源：
@@ -117,7 +111,6 @@ examples/
   best_protocol.json
 reports/
   report.html
-  interview_questions.docx
 tests/
 ```
 
@@ -138,11 +131,17 @@ tests/
 3. 把协议模拟器扩展为状态机，加入样本状态、失败概率和设备准备时间。
 4. 增加可视化甘特图，方便面试演示和错误定位。
 
-## GitHub 推送
+## GitHub 仓库
 
-如果需要推送到远程仓库：
+远程仓库：
+
+```text
+https://github.com/galaxy112/era-prism-scheduling-agent.git
+```
+
+如果需要重新配置远程仓库：
 
 ```bash
-git remote add origin <YOUR_GITHUB_REMOTE_URL>
+git remote add origin https://github.com/galaxy112/era-prism-scheduling-agent.git
 git push -u origin main
 ```
