@@ -117,7 +117,6 @@ examples/
   best_protocol.json
 reports/
   report.html
-  interview_questions.docx
 tests/
 ```
 
@@ -138,11 +137,4 @@ tests/
 3. 把协议模拟器扩展为状态机，加入样本状态、失败概率和设备准备时间。
 4. 增加可视化甘特图，方便面试演示和错误定位。
 
-## GitHub 推送
-
-如果需要推送到远程仓库：
-
-```bash
-git remote add origin <YOUR_GITHUB_REMOTE_URL>
-git push -u origin main
 ```
