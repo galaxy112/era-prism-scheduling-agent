@@ -227,7 +227,6 @@ PRISM-style structured protocol simulation:
   <section>
     <h2>6. 一次失败到改进</h2>
     <p>初始候选只按输入顺序尽早排程，导致 A 的培养步骤 `INCUBATOR[4,10)` 与停机窗口 `[8,10)` 重叠。验证器返回 `downtime_conflict` 后，修复候选把相关步骤右移到停机结束之后，硬约束错误从 1 降到 0。</p>
-    <p>这正是面试题想看到的闭环：不是只给一个答案，而是让系统能看到错误、解释错误，并用反馈改进下一轮候选。</p>
   </section>
 
   <section>
